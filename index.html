@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fitline</title>
+		<link rel="shortcut icon" href="./img/logo.png">
+		<link rel="stylesheet" href="./normalize.css">
+		<link rel="stylesheet" href="./reset.css" />
+		<link rel="stylesheet" href="./css.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+
+		<!-- header -->
+
+		<header class="header">
+			<div class="wrapper">
+				<div class="header__top">
+					<a href="">
+						<picture>
+							<source  srcset="./img/logo.png" media="(max-width: 380px)" width="30px"/>
+							<img  src="./svg/logotype.svg" alt="logo"/>
+						</picture>
+					</a>
+					<nav class="nav">
+						<a href="#">Йога</a>
+						<a href="#">МФР</a>
+						<a href="#">Растяжка</a>
+						<a href="#">HIIT</a>
+						<a href="#">Гайды</a>
+					</nav>
+					<div class="header__icons">
+						<a href="#" class="header__items"><img src="./svg/search.svg" alt="search"/></a>
+						<a href="#" class="header__items"><img src="./svg/cart.svg" alt="cart" /></a>
+						<a href="#" class="header__items"><img src="./svg/home.svg" alt="home" /></a>
+						<button class="header__burger-btn" id="burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+
+				</div>
+				<div class="header__down">
+					<div class="header__main" data-aos="fade-right"
+					data-aos-duration="800">
+						<h1 class="header__title title">Фитнес платформа онлайн-тренировок</h1>
+						<p class="header__text">
+							Тренировки разного уровня сложности и для любых целей:
+							восстановление, снижение веса, набор мышечной массы и многое
+							другое. Занимайтесь когда и где вам удобно.
+						</p>
+						<button class="header__btn button">
+							<a href="#" class="btn">Выбрать курс</a>
+						</button>
+					</div>
+					<div class="header__second" data-aos="fade-left" data-aos-duration="800">
+						<img src="./img/1.png" alt="1"/>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Course -->
+
+		<section class="course">
+			<div class="wrapper">
+				<h2 class="course__title title" class="work__title title" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="top-bottom">Выберите курс</h2>
+				<div class="course__collage">
+					<div class="course__items" data-aos="flip-up" data-aos-duration="800" >
+						<a href="#"><img class="img-1" src="./img/2.png" alt="2"/></a>
+						<a href="#"><p class="course__subtitle">Йога</p></a>
+					</div>
+					<div class="course__items" data-aos="flip-up" data-aos-duration="800">
+						<a href=""><img class="img-2" src="./img/3.png" alt="3" /></a>
+						<a href=""><p class="course__subtitle">Растяжка</p></a>
+					</div>
+					<div class="course__items" data-aos="flip-up" data-aos-duration="800">
+						<a href=""><img class="img-1" src="./img/4.png" alt="4" /></a>
+						<a href=""><p class="course__subtitle">HIIT</p></a>
+					</div>
+				</div>
+				<div class="course__position " data-aos="fade-up">
+					<button class="course__btn button">
+						<a href="#" class="btn">Смотреть все</a>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- try-free -->
+
+		<section class="try-free" data-aos="zoom-in">
+			<div class="wrapper">
+				<div class="try-free__bg">
+					<div class="try-free__inner">
+						<h2 class="try-free__title title">
+						Попробуйте бесплатно 
+						</h2>
+						<div class="try-free__text">
+						Смотрите и выполняйте первую тренировку любого курса
+						бесплатно и выбирайте то, что вам подходит больше всего. 
+						</div>
+						<button class="try-free__btn button">
+						<a href="#" class="btn">Попробовать бесплатно</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- about-course -->
+
+		<section class="about-course" >
+			<div class="wrapper">
+				<div class="about-course__top">
+					<div class="about-course__bg" data-aos="zoom-in-down">
+						<img src="./img/6.png" alt="6">
+					</div>
+					<div class="about-course__main">
+						<div class="about-course__subtitle">Онлайн-курс</div>
+						<h2 class="about-course__title title">Растяжка</h2>
+						<div class="about-course__text">Классическая растяжка на все тело на платформ Fitline. Занятия для спины, стоп, продольного и поперечного шпагата.</div>
+						<div class="about-course__buy">
+							<div class="about-course__box">
+								<div class="about-course__inner">
+									<p class="rating__text">
+										Высокий рейтинг
+									</p>
+									<div class="rating__inner">
+										<img src="./svg/star.svg" alt="star">
+										<p class="rating__text">5.0</p>
+									</div>
+								</div>
+							</div>
+							<div class="about-course__box">
+								<div class="about-course__inner-2">
+									<div class="about-course__time">
+										<img src="/svg/time.svg" alt="time">
+										<p class="rating__text">
+											8 недель
+										</p>
+									</div>
+									<div class="about-course-calendar">
+										<img src="./svg/calendar.svg" alt="calendar">
+										<p class="rating__text">24 тренировки</p>
+									</div>
+								</div>
+							</div>
+							<p class="about-course__cost title">2590₽</p>
+							<button class="try-free__btn button">
+							<a href="#" class="btn">Купить курс</a>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="about-course__down">
+					<div class="about-course__menu">
+						<a href="#tab-1" class="about-course__button about-course__button_active">
+							<p>Тренеры</p>
+						</a>
+						<a href="#tab-2" class="about-course__button">
+							<p>Оборудование</p>
+						</a>
+						<a href="#tab-3" class="about-course__button">
+							<p>Отзывы</p>
+						</a>
+					</div>
+					<div class="about-course__body">
+						<div class="about-course__tab-1" id="tab-1">
+							<p class="tab-1__text" data-aos="zoom-in-up">Занятия на платформе проводят  профессиональные  тренеры, спортсмены, мастера спорта. Очень важно доверять тренеру, прислушиваться к нему, чтобы тренировка была  эффективной и безопасной.</p>
+								<div class="tab-1__box" data-aos="zoom-in-up">
+									<img src="./img/7.png" alt="7">
+									<p class="tab-1__suptitle">Ирина Усольцева</p>		
+									<p class="tab-1__subtitle">Мастер спорта по гимнастике</p>
+								</div>
+								
+								<div class="tab-1__box" data-aos="zoom-in-up">
+									<img src="./img/8.png " alt="8" >
+									<p class="tab-1__suptitle">Елена Артемьева</p>
+									<p class="tab-1__subtitle">Артистка балета</p>
+								</div>
+
+								<div class="tab-1__box" data-aos="zoom-in-up">
+									<img src="./img/9.png" alt="9">
+									<p class="tab-1__suptitle">Алена Свиридова</p>
+									<p class="tab-1__subtitle">Чемпионка России по акробатике</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- about -->
+
+		<section class="about">
+			<div class="wrapper">
+				<div class="about__inner">
+					<div class="about__main" data-aos="zoom-in-up" data-aos-duration="800">
+						<h2 class="about__title title">
+							О платформе Fitline
+						</h2>
+						<p class="about__text-1">
+							Fitline – это платформа онлайн-тренировок от лучших тренеров России. Большой выбор программ и разный уровень сложности в каждой из них позволят вам подобрать ту физическую нагрузку, которая необходима.
+						</p>
+						<p class="about__text">На платформе есть тренировки для разных целей: снижение веса, набор мышечной массы, восстановление, развитие гибкости, поддержка общего тонуса организма.
+						</p>
+						<div class="about__button">
+							<button class="button">
+							<a href="#" class="btn">Узнать больше</a>
+							</button>
+						</div>
+					</div>
+					<div class="about__second" data-aos="zoom-in-up" data-aos-duration="800">
+						<img src="./img/10.png" alt="10">
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- work -->
+
+		<section class="work">
+			<div class="wrapper">
+				<h2 class="work__title title" data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">Как это работает</h2>
+				
+				<div class="work__collage" data-aos="flip-up">
+					<div class="work__items">
+						<div class="work__number">01</div>
+						<p class="work__subtitle">Выбор программы</p>
+						<p class="work__text">Выберите программу, которая вам нравится или заполните анкету на сайте, чтобы мы смогли  подобрать для вас наиболее подходящую тренировку.</p>
+					</div>
+					<div class="work__items">
+						<div class="work__number">02</div>
+						<p class="work__subtitle">Личный кабинет</p>
+						<p class="work__text">После оплаты тренировки появятся в личном кабинете. Каждая тренировка открывается после выполнения предыдущей, чтобы распределять нагрузку.</p>
+					</div>
+					<div class="work__items">
+						<div class="work__number">03</div>
+						<p class="work__subtitle">Правильный темп</p>
+						<p class="work__text">Включите видео-тренировку
+						и занимайтесь когда и где вам удобно. В тренировку включен таймер, чтобы вы могли следить за темпом и делать паузы.</p>
+					</div>
+					<div class="work__items">
+						<div class="work__number">04</div>
+						<p class="work__subtitle">Поддержка тренера</p>
+						<p class="work__text">Каждое занятие сопровождается инструкцией тренера по технике выполнения всех упражнений. Прислушивайтесь к нему, чтобы тренировка была безопасной. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- plan -->
+
+		<section class="plan" data-aos="zoom-in">
+			<div class="wrapper">
+				<div class="plan__inner">
+					<div class="plan__main">
+						<h2 class="plan__title title">Персональный план развития</h2>
+						<p class="plan__subtitle">Важно уделять внимание не только физическим упражнениям, но и полноценному питанию. Заполните анкету и мы пришлем вам план
+						питания на месяц с учетом ваших особенностей и образа жизни.</з>
+
+						<form action="#" method="get">
+							<div class="form__top">
+								<div class="form__box">
+									<label class="form" for="name">Имя</label>
+									<input class="form__input"   type="text" name="name" id="name">
+								</div>
+								<div class="form__box">
+									<label class="form" for="tel">Телефон</label>
+									<input class="form__input"type="tel" name="tel" id="tel">
+								</div>
+							</div>
+							<div class="form__down">
+								<div class="form__email">
+									<label class="form" for="email">E-mail</label>
+									<input class="form__big-input" type="email" name="email" id="email">
+								</div>
+							</div>
+							<div class="form__bottom">
+								<p>Ваша цель</p>
+								<div class="form__radio">
+									<label>
+										<input class="circle" type="radio" id="radio-1" name="radio" value="no-eat" checked>
+										<span class="radio"></span>
+										<span>Снижение веса</span>
+									</label>
+									<label>
+										<input class="circle" type="radio" id="radio-2" name="radio" value="eat">
+										<span class="radio"></span>
+										<span>Набор массы</span>
+									</label>
+									<label>
+										<input class="circle" type="radio" id="radio-3" name="radio" value="other">
+										<span class="radio"></span>
+										<span>Другая цель</span>
+									</label>
+								</div>
+								<div class="form__massage">
+									<label>
+										<input class="checkbox" type="checkbox" id="check"> 
+										<span class="custom"></span>
+										<span class="agree">Я согласен на обработку моих персональных данных</span>
+									</label>
+								</div>
+							</div>
+							<div class="form__button">
+								<button class="button">
+								<a href="#" class="btn">Продолжить</a>
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer -->
+
+		<footer class="footer">
+			<div class="wrapper">
+				<div class="footer__inner">
+					<p class="footer__copyright">
+						Fitline © 2021 Все права защищены
+					</p>
+					<div class="footer__link">
+						<a href="#"><img src="./svg/facebook.svg" alt="facebook"></a>
+						<a href="#"><img src="./svg/vk.svg" alt="vk"></a>
+						<a href="#"><img src="./svg/instagram.svg" alt="instagram"></a>
+					</div>
+					<p class="footer__document">
+						Политика конфиденциальности
+					</p>
+				</div>
+			</div>
+		</footer>
+
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="./script.js"></script>
+	</body>
+</html>
